@@ -2,6 +2,8 @@
 
 `Constant` in regression analysis is referred to the point line cuts the **Y-axis**
 
+`Backward Elimination` is irrelevant in Python, because the `Scikit-Learn library` automatically takes care of selecting the statistically significant features when training the model to make accurate predictions.
+
 ## Building a model
 
 ### Backward Elimination
