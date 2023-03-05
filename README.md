@@ -4,6 +4,18 @@
 
 `Backward Elimination` is irrelevant in Python, because the `Scikit-Learn library` automatically takes care of selecting the statistically significant features when training the model to make accurate predictions.
 
+The linear based regression models are calculated with OLS (Ordinary Least Squares)
+``` 
+^β = (XTX)−1XTy
+
+^β = ordinary least squares estimator
+X = matrix regressor variable X
+T = matrix transpose
+y = vector of the value of the response variable
+```
+Support Vector Regression (SVR)
+f ( x ) = ∑ n = 1 N ( α n − α n * ) G ( x n , x ) + b 
+
 ## Building a model
 
 ### Backward Elimination
